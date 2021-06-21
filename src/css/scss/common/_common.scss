@@ -1,0 +1,66 @@
+body,
+input,
+select,
+textarea,
+button {
+    font-family: -apple-system,BlinkMacSystemFont,AppleSDGothicNeo,Helvetica,Malgun Gothic,Dotum,sans-serif;
+}
+
+.blind,
+caption span,
+legend {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    text-indent: -9999px;
+    white-space: nowrap;
+}
+
+i {
+    display: inline-block;
+}
+
+.wrap {
+    position: relative;
+}
+
+// Icon
+.ico_ar_down {
+    @include useSvg-sprite('ico_ar_down');
+}
+
+.ico_ar_right {
+    @include useSvg-sprite('ico_ar_right');
+}
+
+.ico_ar_right2 {
+    @include useSvg-sprite('ico_ar_right2');
+}
+
+.ico_ar_left {
+    @include useSvg-sprite('ico_ar_left');
+}
+
+.ico_ar_left2 {
+    @include useSvg-sprite('ico_ar_left2');
+}
+
+.ico_facebook {
+    @include sp-retina('ico_facebook');
+}
+
+.ico_instagram {
+    @include sp-retina('ico_instagram');
+}
+
+.ico_naver {
+    @include sp-retina('ico_naver');
+}
+
+.label_new {
+    @include sp-retina('label_new');
+}

@@ -1,0 +1,27 @@
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 21px 20px;
+    font-size: 0;
+    box-sizing: border-box;
+
+    @include respond-above($screen-sm) {
+        position: fixed;
+        padding: 23px 32px;
+    }
+}
+
+.header {
+    &_logo {
+        display: inline-block;
+        font-size: 0;
+    }
+
+    &_link {
+        display: inline-block;
+        @include useSvg-sprite('logo');
+    }
+}

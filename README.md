@@ -1,1 +1,3 @@
-# vibe
+# VIBE
+
+NAVER VIBE(바이브)
