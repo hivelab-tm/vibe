@@ -902,7 +902,7 @@ body {
 
         @include respond-above($screen-sm) {
             height: 63px;
-            @include inline-svg-icon("txt_sec8_title_w460", $black, center, 460px auto);
+            @include inline-svg-icon("txt_sec8_title_w393", $black, center, 393px auto);
         }
     }
 
